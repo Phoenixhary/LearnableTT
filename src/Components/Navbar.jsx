@@ -1,10 +1,10 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className=" max-w-[1200px]   w-full m-auto">
         <div className="flex justify-between mt-4 items-center">
-           <h1 className=" font-normal text-[30px]">
+        <h1 className=" font-normal text-[30px]">
               Viss Fashions
            </h1>
            <div className="flex font-normal justify-between font-sans text-lg w-[400px]">
